@@ -6,6 +6,7 @@
         <table class="table table-dark table-striped">
             <thead>
                 <tr>
+                    <th>ID</th>
                     <th>Sepal Length (cm)</th>
                     <th>Sepal Width (cm)</th>
                     <th>Petal Length(cm)</th>
@@ -16,6 +17,7 @@
             <tbody>
                 {% for row in data %}
                 <tr>
+                    <td>{{ row.id }}</td>
                     <td>{{ row.sepal_length }}</td>
                     <td>{{ row.sepal_width }}</td>
                     <td>{{ row.petal_length }}</td>

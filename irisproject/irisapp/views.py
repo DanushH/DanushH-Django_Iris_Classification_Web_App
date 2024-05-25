@@ -20,6 +20,5 @@ def iris_result(request):
 
 
 def iris_dataset(request):
-    pass
-    # data = IrisModel.objects.all()
-    # return render(request, "dataset_table.html", {"data": data})
+    data = IrisModel.objects.all()
+    return render(request, "dataset_table.html", {"data": data})
