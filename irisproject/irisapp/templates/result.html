@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<form method="post" action="{% url 'iris_dataset' %}">
+    {% csrf_token %}
+    <fieldset>
+        <p>Prediction result comes here</p>
+        <br>
+        <button class="btn btn-dark" type="submit">View Dataset</button>
+    </fieldset>
+</form>
+
+{% endblock %}
