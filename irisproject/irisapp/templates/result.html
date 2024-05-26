@@ -1,13 +1,17 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<form method="post" action="{% url 'iris_dataset' %}">
-    {% csrf_token %}
-    <fieldset>
-        <p>Prediction result comes here</p>
-        <br>
-        <button class="btn btn-dark" type="submit">View Dataset</button>
-    </fieldset>
-</form>
+<fieldset>
+
+    <h1>Prediction Result</h1>
+    <h3>Predicted Species: {{ prediction }}</h3>
+    <h5>Prediction Probabilities:</h5>
+    <ul>
+        <li>Setosa: {{ probability.0|floatformat:2 }}</li>
+        <li>Versicolor: {{ probability.1|floatformat:2 }}</li>
+        <li>Virginica: {{ probability.2|floatformat:2 }}</li>
+    </ul>
+
+</fieldset>
 
 {% endblock %}
