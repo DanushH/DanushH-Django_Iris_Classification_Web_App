@@ -21,12 +21,27 @@
 
 - Home Page
 
-  
-- Prediction Page
+<div align="center">
+  <a href="https://github.com/DanushH/Django_Iris_Classification_Web_App.git">
+    <img src="irisproject/irisapp/static/media/home.PNG" alt="Home Page" width="1000" height="600">
+  </a>
+</div>
 
+- Prediction Page
+  
+<div align="center">
+  <a href="https://github.com/DanushH/Django_Iris_Classification_Web_App.git">
+    <img src="irisproject/irisapp/static/media/result.PNG" alt="Prediction Result Page" width="1000" height="600">
+  </a>
+</div>
 
 - Dataset Page
-
+  
+<div align="center">
+  <a href="https://github.com/DanushH/Django_Iris_Classification_Web_App.git">
+    <img src="irisproject/irisapp/static/media/dataset.PNG" alt="Dataset Page" width="1000" height="600">
+  </a>
+</div>
 
 <br>
 
