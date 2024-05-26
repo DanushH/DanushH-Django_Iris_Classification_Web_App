@@ -56,11 +56,10 @@ tbody {
     appearance: none;
     height: 10px;
     border-radius: 5px;
-    background: #f1f1f1;
+    background: #c794c3;
     outline: none;
     opacity: 0.7;
     margin-bottom: 25px;
-
 }
 
 .custom-range::-webkit-slider-thumb {
@@ -69,6 +68,6 @@ tbody {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #380b29;
+    background: #b94b95;
     cursor: pointer;
 }
