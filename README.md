@@ -5,7 +5,7 @@
 - A web application developed with [Django](https://www.djangoproject.com/), a high-level web framework for Python.
 - This application provides functionality for predicting category of an Iris flower when given features as user input.
 - Application is built by training a [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) for Iris dataset using [scikit-learn](https://scikit-learn.org/) library.
-- Application uses a [CSV Iris dataset](https://github.com/DanushH/Django_Iris_Classification_Web_App/blob/main/irisproject/irisapp/dataset/Iris.csv) and stores it in a sqlite database and extracts data from the database to train the model.
+- Application uses a [CSV Iris dataset](https://github.com/DanushH/Django_Iris_Classification_Web_App/blob/main/irisproject/irisapp/dataset/Iris.csv) and stores it in a sqlite database and fetches data from the database to train the model.
 
 <br>
 
