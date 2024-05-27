@@ -27,11 +27,11 @@ def main():
 
         for index, row in df.iterrows():
             obj, created = IrisModel.objects.get_or_create(
-                sepal_length=row["SepalLengthCm"],
-                sepal_width=row["SepalWidthCm"],
-                petal_length=row["PetalLengthCm"],
-                petal_width=row["PetalWidthCm"],
-                species=row["Species"],
+                sepal_length=row["sepal_length"],
+                sepal_width=row["sepal_width"],
+                petal_length=row["petal_length"],
+                petal_width=row["petal_width"],
+                species=row["species"],
             )
 
     store_data()
